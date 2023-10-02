@@ -1,0 +1,17 @@
+name: BonesDropper
+version: '${version}'
+main: com.bonesnetwork.bonesdropper.BonesDropper
+api-version: '1.20'
+prefix: BDropper
+authors: [Bones Mgee]
+website: bones.network
+commands:
+  bdropper:
+    permission: bdropper.admin
+    usage: /bdropper [help|debugmode|arenas] [Arena Name] [setspawn|settitle]
+    aliases:
+      - dropper
+      - bonesdropper
+permissions:
+  bdropper.admin:
+    default: op

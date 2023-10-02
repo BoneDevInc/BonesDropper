@@ -1,0 +1,10 @@
+lang:
+  key: "en_us"
+  name: "English"
+command:
+  error:
+    create_dropper_invalid_syntax: "<red>Invalid Dropper Name"
+    dropper_not_exist: "<red>The Specified Dropper Id Does Not Exist"
+    not_allow_console: "<red>You Must Be A Player To Run This Command"
+  setting_dropper_spawn: "<green> Setting Dropper Spawn"
+  setting_dropper_title: "<green> Setting Dropper Title"
